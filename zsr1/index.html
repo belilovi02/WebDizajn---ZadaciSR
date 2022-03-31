@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>ZADACI ZA SAMOSTALNI RAD</title>
+</head>
+
+<body>
+
+    <p id="datumIspis"></p>
+    <p id="vrijemeIspis"></p>
+    -----------------------------------------------------------------------------------------------
+    <p id="povrsina"></p>
+    -----------------------------------------------------------------------------------------------
+    <br>
+    <label for="a">Unesite godinu za provjeru prestupnosti: </label>
+    <input type="number" name="a" id="godinaP" placeholder="Enter year">
+    <button onclick="provjeriPrestupnu()">Submit</button>
+    <div id="divGod"></div>
+    <br> -----------------------------------------------------------------------------------------------
+    <br>
+    <p>Unesite 2 broja za racunanje prizvoda i kolicnika: <br></p>
+    <input type="text" name="a" id="first" placeholder="Enter first number">
+    <input type="text" name="b" id="second" placeholder="Enter second number">
+    <button onclick="mul()">Submit</button>
+    <div id="mul"></div>
+    <div id="div"></div>
+    -----------------------------------------------------------------------------------------------
+    <br>
+    <p>Konverzija temperature iz jedne jedice u drugu <br>
+        <input type="text" id="c1" placeholder="Enter temperature in Celzius">
+        <input type="submit" onclick="get_Fahrenheit()">
+        <div id="div1"></div>
+        <input type="number" id="f1" placeholder="Enter temperature in Fahrenheit">
+        <input type="submit" onclick="get_Celsius()">
+        <div id="div2"></div>
+        -----------------------------------------------------------------------------------------------
+        <br>
+        <p>Unesite 2 broja za racunanje zbira: <br>
+            <input type="text" name="c" id="broj1" placeholder="Enter first number">
+            <input type="text" name="d" id="broj2" placeholder="Enter second number">
+            <button onclick="saberi()">Submit</button>
+            <div id="div3"></div>
+
+            -----------------------------------------------------------------------------------------------
+            <br>
+            <label for="A">Unesite broj ya provjeru apsolutne udaljesnoti od broja 19: </label>
+            <input type="text" name="A" id="brojA" placeholder="Enter number">
+            <button onclick="vratiApsolutno()">Submit</button>
+            <div id="div4"></div>
+
+            -----------------------------------------------------------------------------------------------
+            <br>
+            <p>Unesite 2 broja: <br>
+                <input type="text" name="e" id="br1" placeholder="Enter first number">
+                <input type="text" name="f" id="br2" placeholder="Enter second number">
+                <button onclick="uradi()">Submit</button>
+                <div id="div5"></div>
+
+                -----------------------------------------------------------------------------------------------
+
+
+                <script src="jsmain.js">
+                </script>
+</body>
+
+</html>
