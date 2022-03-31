@@ -7,8 +7,8 @@ console.log(city2);
 
 /* 2. Write a JavaScript function to remove duplicate items from an array (5 and '5' are considered duplicates). */
 
-var numbers = [1, 2, '1', 3, 4, 5, 2, 6, 3, 4, '5'];
-console.log(numbers)
+var numbers = [1, 2, "1", 3, 4, 5, 2, 6, 3, 4, "5"];
+console.log(numbers);
 
 function removeDuplicate(numbers) {
     var newNumbers = {};
