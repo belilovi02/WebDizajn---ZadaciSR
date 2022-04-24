@@ -21,3 +21,10 @@ function removeDuplicate(numbers) {
 }
 
 console.log(removeDuplicate(numbers));
+
+/* 3. Write a JavaScript function to merge two arrays and removes all duplicates elements. */
+
+let array1 = ['a', 'b', 'c'];
+let array2 = ['c', 'c', 'd', 'e'];
+let array3 = array1.concat(array2);
+array3 = [...new Set([...array1, ...array2])];
